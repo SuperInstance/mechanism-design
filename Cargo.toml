@@ -1,0 +1,15 @@
+[package]
+name = "mechanism-design"
+version = "0.1.0"
+edition = "2024"
+description = "Automated mechanism design: incentive compatibility, strategy-proofness, and Vickrey-Clarke-Groves"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/mechanism-design"
+keywords = ["mechanism-design", "auction", "vcg", "game-theory", "social-choice"]
+categories = ["algorithms", "economics", "mathematics"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
